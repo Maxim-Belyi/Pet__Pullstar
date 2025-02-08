@@ -147,6 +147,7 @@ svg * {
     font-weight: 400;
     color: var(--color-black-grey);
 }
+
 .container {
     background-color: var(--color-white);
     margin: 0 auto;
@@ -619,6 +620,7 @@ background-color: var(--color-black-grey);
 .button:hover {
   background-color: var(--color-orange);
   color: var(--color-green);
+  cursor: pointer;
 }
 
 a:hover {
@@ -658,6 +660,15 @@ a:hover {
 
   .header_gallery-title {
     padding: 8% 15px;
+  }
+
+  .header_menu {
+    margin-bottom: 30px;
+  }
+
+  .header_nav-list {
+    padding-top: 10px;
+    justify-content: center;
   }
 
   .header_gallery-shop {
@@ -725,6 +736,7 @@ a:hover {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto;
+    
   }
 
   .header_navigation {
